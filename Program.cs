@@ -7,6 +7,11 @@ namespace MedApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            
+            var test = new DateTime();
+
+            Console.Write(test);
+            Console.ReadLine();
         }
     }
 }
